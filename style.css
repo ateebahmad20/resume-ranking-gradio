@@ -1,0 +1,137 @@
+/* Centered Title with Spacing */
+#app-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Input Section - Spacing & Centering */
+#input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+/* Job Description Input */
+#job-desc {
+    border-radius: 8px;
+    font-size: 1rem;
+}
+/* CV Upload Field */
+#cv-upload {
+    font-size: 1rem;
+}
+
+/* Button Row Centering */
+#button-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}             
+.scoring-button, .rank-button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    max-width: 350px; /* Shorter width */
+    border-radius: 24px; /* Fully rounded */
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Scoring Button - Blue */
+.scoring-button {
+    background: #2e76c2;
+    color: white;
+}
+
+/* Rank Button - Green */
+.rank-button {
+    background: #3fb943;
+    color: white;
+}
+
+/* Hover Effect - Add Glow & Slight Scale */
+.scoring-button:hover, .rank-button:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Active Click Effect */
+.scoring-button:active, .rank-button:active {
+    transform: scale(0.97);
+}
+               
+.loading-message {
+    text-align: center;
+}
+/* Save & Cancel Buttons */
+.action-button {
+    font-size: 0.875rem; /* Reduce font size */
+    font-weight: bold;
+    padding: 8px 16px; /* Reduce padding */
+    border-radius: 16px; /* Slightly smaller rounded corners */
+    border: 2px solid;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Save Changes Button */
+.save-button {
+    color: #4CAF50; /* Green border */
+    border-color: #4CAF50;
+    background-color: white;
+}
+.save-button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Cancel Button */
+.cancel-button {
+    color: #D9534F; /* Red border */
+    border-color: #D9534F;
+    background-color: white;
+}
+.cancel-button:hover {
+    background-color: #D9534F;
+    color: white;
+}
+#bottom-right-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}                                                       
+/* Error Message Styling */
+.error-message {
+    color: white;
+    background-color: #D9534F; /* Red */
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #a94442;
+}
+#logo-column {
+    position: absolute;
+    top: 2px;
+    right: 10px;  /* Distance from the right */
+    bottom: 3px;
+    z-index: 10;  /* Ensure it's above other elements */
+}
+
+#logo {
+    width: auto;
+    height: 50px;  /* Adjust the height of the logo */
+    object-fit: contain;  /* Ensure the logo maintains its aspect ratio */
+    box-shadow: none;  /* Removes any shadow around the image */
+
+}
+

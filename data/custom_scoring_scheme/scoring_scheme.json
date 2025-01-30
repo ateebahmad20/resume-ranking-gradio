@@ -1,0 +1,133 @@
+{
+    "weights": {
+        "Education": 20.0,
+        "Experience": 30.0,
+        "Skills": 30.0,
+        "Critical Thinking": 20.0
+    },
+    "criteria": {
+        "Education": {
+            "Degree": {
+                "max_score": 4.0,
+                "scoring": {
+                    "Bachelor's degree in required field": 2.0,
+                    "Master's degree in required field": 2.0,
+                    "Bachelor's degree in unrelated field": 0,
+                    "No degree": 0
+                }
+            },
+            "Degree Relevance": {
+                "max_score": 2.0,
+                "scoring": {
+                    "Highly relevant degree": 2.0,
+                    "Somewhat relevant degree": 1.0,
+                    "No relevant degree": 0
+                }
+            },
+            "Institution Reputation": {
+                "max_score": 2.0,
+                "scoring": {
+                    "Well-regarded or prestigious institution in relevant field": 2.0,
+                    "Moderately ranked institution in relevant field": 1.0,
+                    "Unknown or low-ranked institution in relevant field": 0
+                }
+            },
+            "Academic Performance": {
+                "max_score": 2.0,
+                "scoring": {
+                    "Excellent academic performance (CGPA above 3.5)": 2.0,
+                    "Average academic performance (CGPA between 2.0 and 3.4)": 1.0,
+                    "Low academic performance or no CGPA provided": 0
+                }
+            }
+        },
+        "Experience": {
+            "Job Relevance": {
+                "max_score": 5.0,
+                "scoring": {
+                    "Directly relevant experience with the same industry, job function, and level of responsibility": 5.0,
+                    "Relevant experience with a similar industry, job function, or level of responsibility": 4.0,
+                    "Partially relevant experience with some transferable skills": 3.0,
+                    "Limited relevance but some transferable skills": 2.0,
+                    "No relevance to the position": 0
+                }
+            },
+            "Years of Experience": {
+                "max_score": 5.0,
+                "scoring": {
+                    "7+ years of relevant experience or more": 5.0,
+                    "5-6 years of relevant experience": 4.0,
+                    "3-4 years of relevant experience": 3.0,
+                    "1-2 years of relevant experience": 2.0,
+                    "Less than 1 year of relevant experience": 1.0
+                }
+            },
+            "Achievements and Impact": {
+                "max_score": 5.0,
+                "scoring": {
+                    "Consistently achieved exceptional results and made a significant impact": 5.0,
+                    "Frequently achieved above-average results and made a noticeable impact": 4.0,
+                    "Occasionally achieved noteworthy results and made a moderate impact": 3.0,
+                    "Demonstrated some achievements and made a minor impact": 2.0,
+                    "No notable achievements or impact": 0
+                }
+            },
+            "Skills and Expertise": {
+                "max_score": 5.0,
+                "scoring": {
+                    "Possesses an extensive range of relevant skills and expertise": 5.0,
+                    "Demonstrates a broad set of relevant skills and expertise": 4.0,
+                    "Shows a moderate range of relevant skills and expertise": 3.0,
+                    "Exhibits some relevant skills and expertise": 2.0,
+                    "Lacks relevant skills and expertise": 0
+                }
+            },
+            "Progression and Growth": {
+                "max_score": 5.0,
+                "scoring": {
+                    "Consistently demonstrated career progression and took on increasing levels of responsibility": 5.0,
+                    "Experienced noticeable career growth and assumed greater responsibilities": 4.0,
+                    "Showed some career advancement and took on additional responsibilities": 3.0,
+                    "Limited career growth but demonstrated some increased responsibilities": 2.0,
+                    "No career progression or increased responsibilities": 0
+                }
+            }
+        },
+        "Skills": {
+            "Relevance": {
+                "max_score": 2.0,
+                "scoring": {
+                    "The skills and qualifications closely match the requirements of the job": 2.0,
+                    "Some relevant skills and qualifications are mentioned, but there are also irrelevant ones": 1.0,
+                    "The skills and qualifications have little to no relevance to the job": 0
+                }
+            },
+            "Depth of Expertise": {
+                "max_score": 2.0,
+                "scoring": {
+                    "The candidate demonstrates extensive expertise in the mentioned skills and qualifications": 2.0,
+                    "The candidate possesses a moderate level of expertise in the mentioned skills and qualifications": 1.0,
+                    "The candidate lacks depth of expertise in the mentioned skills and qualifications": 0
+                }
+            },
+            "Years of Experience": {
+                "max_score": 2.0,
+                "scoring": {
+                    "The candidate has a significant number of years of experience directly related to the skills and qualifications": 2.0,
+                    "The candidate has some years of experience, but it might not be directly relevant to the skills and qualifications mentioned": 1.0,
+                    "The candidate lacks substantial relevant experience": 0
+                }
+            }
+        },
+        "Critical Thinking": {
+            "Problem solving": {
+                "max_score": 5.0,
+                "scoring": {
+                    "The candidate successfully identifies problems and come up with the best solution": 5.0,
+                    "The candidate successfully identifies problems but unable to come up with the best solution": 3.0,
+                    "Unable to recognize or solve problems effectively ": 0
+                }
+            }
+        }
+    }
+}

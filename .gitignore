@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+
+/gradio/certificate.pem
+
+/data/uploaded_jds
+/data/uploaded_pdfs
+
+qult-bg.png
+qult.jpeg
