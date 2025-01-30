@@ -25,7 +25,7 @@ The Resume Ranking Tool that is built on Gradio allows users to assess and rank 
 1. Create a Conda environment named resume-ranking with Python 3.11.11:
 
    ```bash
-   conda create -n resume-ranking python=3.13.1
+   conda create -n resume-ranking python=3.11.11
    ```
 2. Activate the conda environment.
 
