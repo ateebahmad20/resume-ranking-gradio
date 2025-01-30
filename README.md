@@ -1,8 +1,9 @@
 # Resume Ranking 
  
 - **Description:**
-The Resume Ranking Tool that is built on Gradio allows users to assess and rank candidates by matching their resumes with a provided job description. The tool uses advanced algorithms to evaluate CVs against various dynamic scoring criterias, providing a clear ranking of the most suitable candidates for the job.  - **Functionalities:**
+The Resume Ranking Tool that is built on Gradio allows users to assess and rank candidates by matching their resumes with a provided job description. The tool uses advanced algorithms to evaluate CVs against various dynamic scoring criterias, providing a clear ranking of the most suitable candidates for the job.
 
+- **Functionalities:**
   - **Resume Upload:**
     Users can upload multiple CVs in various formats (PDF, DOCX, TXT) and evaluate them against a specified job description.
   - **Job Description Input:**
