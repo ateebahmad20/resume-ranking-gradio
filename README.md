@@ -40,7 +40,7 @@ The Resume Ranking Tool that is built on Gradio allows users to assess and rank 
 
 ### Launching the Gradio App
 
-Once all the dependencies are installed, you can launch the app locally:
+Once all the dependencies are installed, enter your OPENAI KEY in the env file and then you can launch the app locally:
 
 ```bash
 python gradio_app.py
